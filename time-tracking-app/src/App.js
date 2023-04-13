@@ -6,7 +6,7 @@ import Tasks from './Tasks';
 
 const App = () => {
   return (
-    <div id='root'>
+    <div id="root">
     <Router>
       <Switch>
         <Route exact path="/" component={Projects} />
