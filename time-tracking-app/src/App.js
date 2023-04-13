@@ -6,12 +6,14 @@ import Tasks from './Tasks';
 
 const App = () => {
   return (
+    <div id='root'>
     <Router>
       <Switch>
         <Route exact path="/" component={Projects} />
         <Route path="/projects/:projectId/tasks" component={Tasks} />
       </Switch>
     </Router>
+    </div>
   );
 };
 
